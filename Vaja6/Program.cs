@@ -14,7 +14,7 @@ namespace vaja6 {
         public string u_geslo;
         public static int stIg = 1;
 
-        public Igralec() { //določi začetne podatke
+       private Igralec() { //določi začetne podatke
             u_ime = "";
             u_geslo = "";
             id = stIg;

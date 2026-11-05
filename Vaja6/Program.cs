@@ -14,21 +14,21 @@ namespace vaja6 {
         public string u_geslo;
         public static int stIg = 1;
 
-        public Igralec() {
+        public Igralec() { //določi začetne podatke
             u_ime = "";
             u_geslo = "";
             id = stIg;
             stIg++;
         }
 
-        public int Id {
+        public int Id { // vrne id
             get
             {
                 return id;
             }
         }
 
-        public string U_ime {
+        public string U_ime { // get-set metoda pridobi in nastavi ime
             get
             {
                 return u_ime;
@@ -39,7 +39,7 @@ namespace vaja6 {
             }
         }
 
-        public string U_geslo
+        public string U_geslo // nastavi geslo
         {
             get
             {
@@ -51,7 +51,7 @@ namespace vaja6 {
             }
         }
 
-        public static int StIg
+        public static int StIg // pridobi število iger
         {
             get { return stIg; }
         }
